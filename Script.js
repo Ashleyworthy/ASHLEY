@@ -1,6 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const loading = document.getElementById('loading');
-    loading.style.display = 'none'; // Hide loading animation after content is loaded
+
 
     const buttons = document.querySelectorAll('.toggle-description');
 
@@ -156,4 +154,3 @@ document.addEventListener('DOMContentLoaded', function() {
             }, 600); // Duration of ripple effect
         });
     });
-});
